@@ -1,4 +1,4 @@
-package com.model;
+package com.example.todoo.model;
 
 public enum Priority {
     LOW, MEDIUM, HIGH

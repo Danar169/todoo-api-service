@@ -1,6 +1,5 @@
-package com.model;
+package com.example.todoo.model;
 
-import javax.annotation.Generated;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -17,6 +16,10 @@ public class Todo {
 
     private String description;
     private Priority priority;
+
+    public Todo(){
+        
+    }
 
     public Todo(long id, String description, Priority priority){
         this.id=id;
